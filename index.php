@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Document</title
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/all.css">
 	<link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
@@ -16,8 +17,8 @@
 					coating匠車車體鍍膜
 				</a>
 			</h1>
-			<div class="menu">
-				<ul>
+			<div>
+				<ul class="navigation">
 					<li id="introduction">
 						<a href="">公司簡介</a>
 						<ul id="sub_introduction">

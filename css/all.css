@@ -79,67 +79,59 @@ h1 a{
 	background: url('../images/logo_top.png') no-repeat;
 }
 
-.menu{
-	margin-left: 15px;
-	margin-top: 20px
+ul.navigation li {
+    position: relative;
+    float: left;
+}
+/* 選單 li 裡面連結之樣式 */
+ul.navigation li a{
+    display: block;
+    padding: 0.7rem;
+    /*background: #888;*/
+    /*color: #FFF;*/
 }
 
-.menu li{
-	float: left;
-	display: block;
+ul.navigation > li > a:hover{
+    color: #2196f3;
+    background: #DDD
 }
 
-.menu li a{
-	padding: 0.5rem
+/* 特定在第一層 > 第二層之後下拉部分之樣式 */
+ul.navigation li ul{
+    display: none;
+    float: left;
+    position: absolute;
+    left: 0;    
+    margin: 0;
+}
+/* 當第一層選單被觸發時，指定第二層顯示 */
+ul.navigation li:hover > ul{
+    display: block;
+}
+/* 特定在第二層或之後下拉部分 li 之樣式 */
+ul.navigation ul li {
+    border-bottom: 1px solid #DDD;
+}
+/* 特定在第二層或之後下拉部分 li （最後一項不要底線）之樣式 */
+ul.navigation ul li:last-child {
+    border-bottom: none;
 }
 
-.menu ul ul{
-	background: #757575;
-	position: absolute;
-	display: none;
+ul.navigation ul a {
+    width: 120px;
+    padding: 10px 12px;    
+    color: #666;        
+    background: #EEE;
+}
+ul.navigation ul a:hover {        
+    background: #CCC;    
 }
 
-.menu ul ul li{
-	position: relative;
-	float: none;
-	margin-left: 0px;
-}
-
-.menu ul ul li a{
-	border-bottom: 0.5px #ffffff solid;
-	line-height: 1rem;
-	padding: 1rem 1rem;
-}
-
-#sub_noncrystallization{
-	top: 0px;
-	width: 305px;
-	left: 243.7px
-}
-
-#sub_crystallization{
-	width: 320px;
-	top: 0px;
-	left: 243.7px
-}
-
-#sub_introduction{
-	left: 20px;
-	top: 195px
-}
-
-#sub_car_glass{
-	width: 320px;
-	top: 0px;
-	left: 243.7px;
-}
-
-
-
-#sub_example {
-	top: 0px;
-	left: 110px;
-	width: 200px
+ul.navigation ul li:hover > ul{
+    display: block;
+    position: absolute;
+    top: 0;    
+    left: 100%;
 }
 
 

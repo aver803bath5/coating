@@ -45,7 +45,7 @@ table {
 body{
 	font-size: 1.2rem;
 	font-family: serif;
-	background: #111111
+	background: url(../images/bg_bady.jpg);
 }
 
 a{
@@ -60,7 +60,6 @@ a:hover{
 
 .container{
 	width: 1003px;
-	/*background: white;*/
 	margin: 0 auto;
 	margin-bottom:20px;
 }
@@ -280,12 +279,10 @@ button:active{
 
 .branches{
 	width: 600px;
-	/*margin-left: 10px;*/
 	margin: 0  auto;
 }
 
 .branches li{
-	/*margin-left: 50px;*/
 	width: 300px;
 	float: left;
 	margin-top: 10px

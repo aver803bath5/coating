@@ -132,12 +132,26 @@
 							<li><a href="">顧客分享</a></li>
 						</ul>
 					</li>
-					<li id="branches">
+					<li>
 						<a href="">分店資訊</a>
-						<ul id="sub_branches">
-							<li><a href="">北區分店</a></li>
-							<li><a href="">中區分店</a></li>
-							<li><a href="">南區分店</a></li>
+						<ul>
+							<li>
+								<a href="">北區分店</a>
+							</li>
+							<li>
+								<a href="">中區分店</a>
+								<ul>
+									<li><a href="">台中南屯店</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="">南區分店</a>
+								<ul>
+									<li><a href="">高雄總店</a></li>
+									<li><a href="">高雄澄清店</a></li>
+									<li><a href="">台南永康店</a></li>
+								</ul>
+							</li>
 						</ul>
 					</li>
 					<li>
@@ -182,12 +196,125 @@
 			</div>
 
 			<div class="information">
-				
+				<div class="article">
+					<button type="button"><div class="arrow-right"></div>專業文章</button>
+					<ul class="article_list">
+						<li>
+							<a href="">車漆污染主要成因</a>
+							<p>7/24/2014</p>
+						</li>
+						<li>
+							<a href="">汽車養護必要性？？？</a>
+							<p>5/29/2015</p>
+						</li>
+						<li>
+							<a href="">消光漆可以打一般常見的棕櫚蠟嗎?</a>
+							<p>7/23/2015</p>
+						</li>
+						<li>
+							<a href="">馬自達原廠烤漆後如何惡搞顧客的MAZDA 6</a>
+							<p>4/3/2016</p>
+						</li>
+						<li>
+							<a href="">想要做有效的車體鍍膜請先問店家這六大問題</a>
+							<p>2/12/2016</p>
+						</li>
+						<li>
+							<a href="">特此聲明某些不肖車體鍍膜店家利用本店文章欺瞞消費者</a>
+							<p>3/31/2015</p>
+						</li>
+					</ul>
+				</div>
+				<div class="product">
+					<button type="button"><div class="arrow-right"></div>專業文章</button>
+					<ul class="article_list">
+						<li>
+							<a href="">車漆污染主要成因</a>
+							<p>7/24/2014</p>
+						</li>
+						<li>
+							<a href="">汽車養護必要性？？？</a>
+							<p>5/29/2015</p>
+						</li>
+						<li>
+							<a href="">消光漆可以打一般常見的棕櫚蠟嗎?</a>
+							<p>7/23/2015</p>
+						</li>
+						<li>
+							<a href="">馬自達原廠烤漆後如何惡搞顧客的MAZDA 6</a>
+							<p>4/3/2016</p>
+						</li>
+						<li>
+							<a href="">想要做有效的車體鍍膜請先問店家這六大問題</a>
+							<p>2/12/2016</p>
+						</li>
+						<li>
+							<a href="">特此聲明某些不肖車體鍍膜店家利用本店文章欺瞞消費者</a>
+							<p>3/31/2015</p>
+						</li>
+					</ul>
+				</div>
+				<div class="activity">
+					<button type="button"><div class="arrow-right"></div>專業文章</button>
+					<ul class="article_list">
+						<li>
+							<a href="">車漆污染主要成因</a>
+							<p>7/24/2014</p>
+						</li>
+						<li>
+							<a href="">汽車養護必要性？？？</a>
+							<p>5/29/2015</p>
+						</li>
+						<li>
+							<a href="">消光漆可以打一般常見的棕櫚蠟嗎?</a>
+							<p>7/23/2015</p>
+						</li>
+						<li>
+							<a href="">馬自達原廠烤漆後如何惡搞顧客的MAZDA 6</a>
+							<p>4/3/2016</p>
+						</li>
+						<li>
+							<a href="">想要做有效的車體鍍膜請先問店家這六大問題</a>
+							<p>2/12/2016</p>
+						</li>
+						<li>
+							<a href="">特此聲明某些不肖車體鍍膜店家利用本店文章欺瞞消費者</a>
+							<p>3/31/2015</p>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
+		<div class="clear"></div>
 		<div class="footer">
-			
+			<ul class="branches">
+				<li>
+					<p>高雄總店</p>
+					<p>0925-511-991</p>
+					<p>高雄市楠梓區大學南路1218號</p>
+				</li>
+				<li>
+					<p>台南永康店</p>
+					<p>0988-853-600</p>
+					<p>台南永康區中正六街131號</p>
+				</li>
+				<li>
+					<p>高雄澄清店</p>
+					<p>0925-511-991</p>
+					<p>高雄市三民區黃興路15號</p>
+				</li>
+				<li>
+					<p>台中南屯店</p>
+					<p>0905-168-086</p>
+					<p>台中市南屯區永順路350號</p>
+				</li>
+			</ul>
 		</div>
+		<div class="clear"></div>
+		<div class="logo">
+			<img src="./images/logo_top.png" alt="">
+		</div>
+		<p class="copyright">Copyright Chien-Rei Li</p>
 	</div>
 </body>
 </html>

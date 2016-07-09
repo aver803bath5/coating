@@ -61,7 +61,8 @@ a:hover{
 .container{
 	width: 1003px;
 	/*background: white;*/
-	margin: 0 auto
+	margin: 0 auto;
+	margin-bottom:20px;
 }
 
 .header{
@@ -161,7 +162,8 @@ ul.navigation ul li:hover > ul{
 }
 
 .illustration{
-	padding: 1rem;
+	position: relative;
+	padding: 1rem 1rem 2rem 1rem;
 	color: #ffffff;
 	line-height: 2rem;
 	margin-top: 10px;
@@ -170,9 +172,12 @@ ul.navigation ul li:hover > ul{
 }
 
 .nano{
+	right: 5px;
+	position: absolute;
+	max-width: 180px;
 	display: block;
 	color: #2185f3;
-	text-align: right;
+	text-align: center;
 }
 
 .ppt{
@@ -193,8 +198,131 @@ ul.navigation ul li:hover > ul{
 	padding: 1rem;
 }
 
+.information{
+	text-align: center;
+	margin-top: 10px;
+	color: #ffffff;
+}
+
+.information p{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	/*margin-left: 20px*/
+}
+
+.information button{
+	text-align: left;
+	position: relative;
+	color: #bbdefb;
+	font-weight: bold;
+	display: block;
+	border-radius: 5px;
+	font-size: 1rem;
+	cursor: pointer;
+	width: 100px;
+	height: 50px;
+	background: #919191;
+	border: 1px #fafafa solid;
+	margin: 0 auto;
+}
+
+.information button:hover{
+	background: #64b5f6
+}
+
+.information button:hover>div{
+	border-top: 5px solid #64b5f6;
+    border-bottom: 5px solid #64b5f6;
+
+}
+
+.information button>.arrow-right{
+	position: absolute;
+	right: 5px;
+	top: 40%;
+}
+
+.information li{
+	border-bottom: 1px #ffffff solid;
+	height:auto;
+}
+
+
+.information li a{
+	margin-top: 20px;
+	line-height: 1.5rem;
+	/*margin-left: 20px*/
+}
+
+button:focus {
+	outline: 0
+}
+
+button:active{
+	border: 0;
+}
+
+.article ,.product ,.activity{
+	width: 33%;
+	float: left;
+}
+
+.product {
+	border-left: 1px #ffffff solid;
+	border-right: 1px #ffffff solid;
+}
+
+.footer{
+	padding: 1rem;
+	color: #ffffff
+}
+
+.branches{
+	width: 600px;
+	/*margin-left: 10px;*/
+	margin: 0  auto;
+}
+
+.branches li{
+	/*margin-left: 50px;*/
+	width: 300px;
+	float: left;
+	margin-top: 10px
+}
+
+.branches li>p:first-child{
+	color: #9e9;
+	font-weight: bold;
+}
+
+.logo{
+	width: 621px;
+	/*height: auto;*/
+	margin:0 auto;
+}
+
+.logo img{
+	width: 100%;
+	height: auto;
+}
+
+.copyright{
+	padding: 1rem;
+	text-align: center;
+	margin:0 auto;
+	color: #ffffff
+}
 
 .clear{
 	clear: both;
+}
+
+	
+.arrow-right{
+	border-top: 5px solid #919191;
+    border-left: 10px solid #ffebee;
+    border-bottom: 5px solid #919191;
+    display: inline-block;
 }
 

@@ -44,7 +44,7 @@ table {
 /*----------------------------------------------------*/
 body{
 	font-size: 1.2rem;
-	font-family: sans-serif;
+	font-family: serif;
 	background: #111111
 }
 
@@ -59,7 +59,7 @@ a:hover{
 }
 
 .container{
-	width: 960px;
+	width: 1003px;
 	/*background: white;*/
 	margin: 0 auto
 }
@@ -80,13 +80,14 @@ h1 a{
 }
 
 ul.navigation li {
+	z-index: 999999;
     position: relative;
     float: left;
 }
 /* 選單 li 裡面連結之樣式 */
 ul.navigation li a{
     display: block;
-    padding: 0.7rem;
+    padding: 0.5rem;
     /*background: #888;*/
     /*color: #FFF;*/
 }
@@ -118,7 +119,8 @@ ul.navigation ul li:last-child {
 }
 
 ul.navigation ul a {
-    width: 120px;
+	text-align: center;
+    width: 215px;
     padding: 10px 12px;    
     color: #666;        
     background: #EEE;
@@ -157,6 +159,40 @@ ul.navigation ul li:hover > ul{
 	height: 1px;
 	background: #ffffff
 }
+
+.illustration{
+	padding: 1rem;
+	color: #ffffff;
+	line-height: 2rem;
+	margin-top: 10px;
+	border-radius: 5px;
+	background: #1e1e1e
+}
+
+.nano{
+	display: block;
+	color: #2185f3;
+	text-align: right;
+}
+
+.ppt{
+	margin-top: 10px;
+}
+.ppt img{
+	width: 1003px;
+}
+
+.youtube{
+	margin-top: 20px;
+	color: #ffffff;
+	line-height: 2rem;
+	background: #1b1b1b
+}
+
+.youtube p{
+	padding: 1rem;
+}
+
 
 .clear{
 	clear: both;
